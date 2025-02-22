@@ -1,48 +1,35 @@
-# Medical Records App (Go)
+# Medical Records App
 
-This is a simple command-line application for managing medical records. It allows users to:
+This is a simple command-line application for managing medical records. The app allows you to:
 
-- **Add a new medical record**
-- **View all stored medical records**
-- **Delete a specific record**
+- Add new medical records.
+- View all stored records.
+- Delete records.
+- Move records to a new position.
+- Update existing records.
 
-All records are stored in a text file called `records.txt`.
+## Features
 
-## Features:
+1. **Add a new entry**: 
+   - You can add a new medical note to the file. The note is appended to `records.txt`.
 
-1. **Add a New Entry**: Users can add a new medical record, which will be appended to the `records.txt` file.
-2. **View All Records**: Users can view all stored medical records from the file.
-3. **Delete a Record**: Users can choose a specific record to delete by selecting its corresponding number.
+2. **View all records**:
+   - You can view all the records stored in `records.txt`.
 
-## How to Use:
+3. **Delete a record**:
+   - You can delete a specific record by selecting its index number.
 
-1. **Run the application**:
-   - Open a terminal window.
-   - Navigate to the directory containing the `main.go` file.
-   - Run the application using the command:
-     ```bash
-     go run main.go
-     ```
+4. **Move a record**:
+   - You can move a record to a specific position by selecting its index and providing the target index where you want the record to go.
 
-2. **Choose an option**:
-   - **1** to add a new medical record.
-   - **2** to view all records.
-   - **3** to delete a record.
-   - **4** to exit the application.
+5. **Update a record**:
+   - You can update an existing record by selecting its index and entering the new value for the record.
 
-3. **Adding a new record**:
-   - Enter the medical note when prompted.
-   - The note will be saved in the `records.txt` file.
+## Usage
 
-4. **Viewing records**:
-   - All stored records will be displayed in the terminal.
+### Starting the Application
 
-5. **Deleting a record**:
-   - A list of stored records will be shown with numbers.
-   - Select the number of the record you want to delete.
+To start the application, run the Go program:
 
-## Requirements:
-
-- Go 1.x or higher.
-- A terminal or command-line interface.
-
+```bash
+go run main.go
