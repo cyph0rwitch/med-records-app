@@ -1,0 +1,48 @@
+# Medical Records App (Go)
+
+This is a simple command-line application for managing medical records. It allows users to:
+
+- **Add a new medical record**
+- **View all stored medical records**
+- **Delete a specific record**
+
+All records are stored in a text file called `records.txt`.
+
+## Features:
+
+1. **Add a New Entry**: Users can add a new medical record, which will be appended to the `records.txt` file.
+2. **View All Records**: Users can view all stored medical records from the file.
+3. **Delete a Record**: Users can choose a specific record to delete by selecting its corresponding number.
+
+## How to Use:
+
+1. **Run the application**:
+   - Open a terminal window.
+   - Navigate to the directory containing the `main.go` file.
+   - Run the application using the command:
+     ```bash
+     go run main.go
+     ```
+
+2. **Choose an option**:
+   - **1** to add a new medical record.
+   - **2** to view all records.
+   - **3** to delete a record.
+   - **4** to exit the application.
+
+3. **Adding a new record**:
+   - Enter the medical note when prompted.
+   - The note will be saved in the `records.txt` file.
+
+4. **Viewing records**:
+   - All stored records will be displayed in the terminal.
+
+5. **Deleting a record**:
+   - A list of stored records will be shown with numbers.
+   - Select the number of the record you want to delete.
+
+## Requirements:
+
+- Go 1.x or higher.
+- A terminal or command-line interface.
+
